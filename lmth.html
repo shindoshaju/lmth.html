@@ -1,0 +1,252 @@
+<!DOCTYPE html>    <!--version not a tag--> 
+<html lang="en" dir="ltr">   <!--language and direction left to right-->
+<head>
+    <!-- encode characters ascii in webpage-->
+    <meta charset="utf-8">
+
+    <!-- script tag for javascript-->
+    <script type="text/javascript" src="sj.js" ></script>
+
+    <!--style tag-->
+    <style media="screen">
+            .one{
+                margin: 50px;
+                border: 2px solid black;
+                padding: 90px;
+                background-color:moccasin;
+            }
+            span{
+                color:#73ff00;
+            }
+            .seven{
+                background-color:aqua;
+            }
+            
+    </style>
+
+    <!--tittle tag-->
+    <title>thomas first html</title>
+</head>
+<body>
+    <h2>HTML</h2>
+    <!-- paragraph tag -->
+    <div class="one">
+   <p>The HyperText Markup Language or HTML is the standard markup language for documents
+        designed to be displayed in a web browser. It can be assisted by technologies such 
+        as Cascading Style Sheets and scripting languages such as JavaScript</p></div>
+
+    <!--anchor tag or linking tag-->
+      <a href="https://www.udemy.com/course/html5-css3-the-right-parts-complete-beginners-course/learn/lecture/15187478#overview" 
+      > <b>click here for</b> <i>Udemy free html course</i></a> 
+
+    <!-- heading tags-->
+
+    <h1>THOMAS</h1>
+    <H2>THOMA</H2>
+    <h3>THOM</h3>
+    <h4>THO</h4>
+    <h5>TH</h5>
+    <H6>T</H6>
+
+
+
+    <!--altrnate head tag , quotation tag -->
+
+
+
+    <div class="two">
+    <p style="font-size:25px;font-weight:bold;color:blue"> THOMAS "is" a<q>good boy</q> <br> he is very talented</p>
+
+    </div>
+
+
+
+    <!-- bold italics -->
+
+
+    <div class="three">
+        <b>thomas</b><br>
+        <strong>thomas</strong><br>
+        <i>thomas</i><br>
+        <em>thomas</em>
+    </div>
+
+
+
+    <!-- list-->
+
+
+
+    <div class="four">
+      <ol type="1"> <!-- types = a,A,i,I-->
+          <li>one</li>
+          <li>two</li>
+          <li>three</li>
+          <li>four</li>
+      </ol>
+      <ul type="disc"> <!-- types = square,circle,disc-->
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+      </ul>
+    </div>
+
+
+
+    <!--tables -->
+
+
+
+      <div class="five">
+          <table>
+              <tr>
+                  <th>S.NO</th>
+                  <th>NAME</th>
+                  <th>MARKS</th>
+              </tr>
+              <tr>
+                  <td>1</td>
+                  <td>Thomas</td>
+                  <td>55%</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>suren</td>
+                <td>5%</td>
+            </tr>
+          </table>
+      </div>
+
+
+
+
+
+    <!--tags -->
+
+
+
+    <div class="six">
+       <P><small>thomas</small>shindo</p>
+       <P><sub>thomas</sub>shindo</p>
+       <P><sup>thomas</sup>shindo</p>
+       <P><ins>thomas</ins>shindo</p>
+       <P><u>thomas</u>shindo</p>
+       <P><span >thomas</span>shindo</p>
+
+        <P><span class="seven" >thomas</span>shindo</p>
+
+        <P><del>thomas</del>shindo</p>
+        <P><strike>thomas</strike>shindo</p>
+        <P><s>thomas</s>shindo</p>
+        <P><mark>thomas</mark>shindo</p>
+        <P><code>thomas</code>shindo</p>
+        <P><var>thomas</var>shindo</p>
+    </div>
+
+
+
+
+    <!--characters and entiies-->
+
+
+    <div class="eight">
+        <p>coding    &nbsp &nbsp; &nbsp;          bee</p>  <!--space-->
+       <p> <pre>coding         bee is the learning platform</pre></p> <!--print-->
+       <p>coding   &amp    bee</p>
+       <p>coding   &copy    bee</p>
+       <p>coding   &reg    bee</p>
+    </div>
+
+
+
+    <!-- image tags-->
+
+
+
+    <div class="nine">
+        <img src="large.png" width="10%"  height="100px"alt="querty"> 
+        <!-- alt querty means image does not querty content will be displayed-->
+        <!-- images in same folder with coding file-->
+
+      <br>
+        <!-- images in  folder , that folder pesent in same coding file folder-->
+        <img src="./surendar/large.png" width="10%"  height="100px"alt="querty">
+     <br>
+      <!-- image present with the folder  that cotains our html file-->
+     <img src="/large.png" width="100%"  height="100px"alt="querty"> 
+     <br>
+     <!-- image collected in the folder that present with folder that contains our html file-->
+     <img src=".//new/large.png" width="100%"  height="100px"alt="unable to load"> 
+     <br>
+     <!-- images via link-->
+     <img src="https://media.istockphoto.com/vectors/different-cartoon-park-forest-pine-fir-trees-set-vector-id995948818" width="50%"  height="100px"alt="querty">
+     <br>
+    </div>
+
+
+
+    <!-- vedio tags -->
+
+
+
+    <div class="ten">
+        <!-- vedios in mp4 format -->
+        <video src="cpanel.mp4" width="100%" controls muted autoplay></video>
+        <!-- vedios in ogg format-->
+        <vedio>
+            <source src="cpanel.mp4" type="vedio/mp4">
+            <source src="cpanel.ogg" type="vedio/ogg">
+        </vedio>
+    </div>
+
+
+
+    <!--audio tags -->
+
+
+
+    <div class="eleven">
+        <!-- audios in mp3 format -->
+        <audio src="cpanel.mp3" width="10%" controls muted autoplay></audio>
+        <!-- vedios in ogg and aac advanced audio format-->
+        <audio>
+            <source src="cpanel.ogg" type="audio/ogg">
+            <source src="cpanel.aac" type="audio/aac">
+        </audio>
+    </div>
+
+
+
+
+    <!-- form tags -->
+
+
+      <form>
+          NAME: <input type="text" name="" value="" maxlength="5"><br>
+          email: <input type="mail" name="" value=""><br>
+          age: <input type="number" name="" value="" min="18" max="21"><br>
+          password: <input type="password" name="" value="" placeholder="enter password"><br>
+          married: <input type="checkbox" name="" value="" checked><br>
+          Date: <input type="date" name="" value=""><br>
+          willing to relocate: <input type="radio" name="" value="" ><br>
+          color: <input type="color" name="" value=""><br>
+          linkidn page: <input type="url" name="" value="" autofocus><br>
+          upload resume: <input type="file" name="" value="" accept="f"><br>
+          expected salary: <input type="range" name="" value=""><br>
+          educational qualification:<select class="selected" name="" multiple>
+              <option value="B.sc">B.Sc</option>
+              <option value="2">BCA</option>
+              <option value="3" selected>MCA</option>  <!-- diasabled,selected,multiple-->
+          </select> <br>
+          about yourself:<textarea name="about yourself" row="8" cols="80" placeholder="tell about yourself" disabled></textarea><br> <!-- readonly-->
+          <br>
+          <button type="submit" name="button">submit</button><br>
+          <br>
+          <button type="reset" name="button">reset</button> 
+
+    </form>
+
+
+</body>
+</html>
